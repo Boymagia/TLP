@@ -5,14 +5,7 @@
     <ActiveDebugFramework>net8.0-windows10.0.19041.0</ActiveDebugFramework>
     <ActiveDebugProfile>Windows Machine</ActiveDebugProfile>
   </PropertyGroup>
-  <ItemGroup>
-    <MauiXaml Update="Cadastro.xaml">
-      <SubType>Designer</SubType>
-    </MauiXaml>
-    <MauiXaml Update="Dashboard.xaml">
-      <SubType>Designer</SubType>
-    </MauiXaml>
-  </ItemGroup>
+  <ItemGroup />
   <ItemGroup>
     <None Update="App.xaml">
       <SubType>Designer</SubType>
@@ -20,7 +13,7 @@
     <None Update="AppShell.xaml">
       <SubType>Designer</SubType>
     </None>
-    <None Update="MainPage.xaml">
+    <None Update="Views\MainPage.xaml">
       <SubType>Designer</SubType>
     </None>
     <None Update="Platforms\Windows\App.xaml">

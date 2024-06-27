@@ -1,1 +1,1 @@
-C:\Users\leoga\Downloads\Gestão\Gestão\Gestão.csproj;x64
+C:\Users\joeli\Desktop\project\TLP\Gestão\Gestão.csproj;x64
