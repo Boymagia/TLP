@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Gestão.Models
 {
-    public class Produto
+    public class Movimento
     {
         public int Id { get; set; }
     }

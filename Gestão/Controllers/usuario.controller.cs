@@ -4,22 +4,16 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Net.Http;
+using Gestão.Services;
 
 namespace Gestão.Controllers
 {
     public class UsuarioController
     {
       
-        public async Task loginUsuario(string username, string password)
+        public async Task<bool> loginUsuario(string username, string password)
         {
-            try
-            {
-                
-            }
-            catch
-            {
-
-            }
+            return await new UsuarioService().loginUsuario(username, password);
         }
     }
 }

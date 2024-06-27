@@ -25,7 +25,7 @@ namespace Gestão.Services
                     username = username,
                     password = password
                 };
-                DtoResposta<string> request = await _httpService.PostAsync<DtoResposta<string>>("cadastrar", null, body);
+                DtoResposta<string> request = await _httpService.PostAsync<DtoResposta<string>>("login", null, body);
                 if (request.data == "Sucesso")
                 {
                     return true;
@@ -33,9 +33,9 @@ namespace Gestão.Services
             }
             catch
             {
-
+                return false;
             }
-            return true;
+            return false;
         }
 
     }
